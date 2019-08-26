@@ -386,6 +386,10 @@ font-family: MyriadProRegular;
 	font-size: 18pt;
 	background-color: #f6f6f6;
 }
+@media (max-width: 450px){
+	#cvet1{
+padding-bottom: 340px;
+}
 #zai{
 	font-size:  25pt;
 }
@@ -407,6 +411,15 @@ font-family: MyriadProRegular;
  	background-color: #cecece;
   	border-radius: 50%;
 }
+@media(max-width: 450px){
+	.icon4:hover{
+	margin-top: 	30px;
+	width: 4em;
+ 	height: 4em;
+ 	background-color: #cecece;
+  	border-radius: 50%;
+}
+	}
 @media(min-width: 1200px){
 #block_2_premoyg{
 	padding-top: 5PX;
@@ -786,6 +799,14 @@ padding-right:20px;
 	.scr2{
 		display: none;
 	}
+}
+.input_name{
+	margin-bottom: 20px;
+}
+@media(max-width: 450px){
+	.input_name{
+	margin-bottom: 10px;
+}
 }
 /*@media(max-width: 1160px){
 .coment{
